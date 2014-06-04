@@ -447,7 +447,7 @@ metadata_filename="$tmp_dir/metadata.txt"
 
 case "$project" in
   "chef")
-    metadata_url="http://192.168.250.1/chef/${platform}"
+    metadata_url="http://192.168.250.1/chef/${platform}/${platform_version}"
     ;;
   "server")
     metadata_url="https://www.opscode.com/chef/metadata-server?v=${version}&prerelease=${prerelease}&nightlies=${nightlies}&p=${platform}&pv=${platform_version}&m=${machine}"
